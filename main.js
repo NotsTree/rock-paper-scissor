@@ -3,7 +3,8 @@
 console.log("Welcome to Rock, Paper, Scissors!");
 
 
-
+let humanScore = 0;
+let computerScore = 0;
 
 function getHumanChoice() {
     let choice = prompt("Enter your choice (rock, paper, scissors):").toLowerCase();
